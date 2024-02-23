@@ -1,0 +1,17 @@
+<rss version="2.0">
+<channel>
+<title>CANAL RSS</title>
+<link>http://daw202.isauces.local/202DWESAplicacionFinalErika2024/index.php</link>
+<description>Canal de actualizaciones de la aplicación web.</description>
+<item>
+<title>Nueva version 05/02/2024</title>
+<link>https://github.com/kyrafenrir/202DWESAplicacionFinalErika2024</link>
+<description>Revisión y continuación de las mejoras del proyecto.</description>
+</item>
+<item>
+<title>Nueva version 01/02/2024</title>
+<link>https://github.com/kyrafenrir/202DWESAplicacionFinalErika2024</link>
+<description>Paso a explotacion de la app antes del examen ¿Que incorpora esta version?</description>
+</item>
+</channel>
+</rss>

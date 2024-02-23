@@ -1,0 +1,253 @@
+/* RESPONSIVE LETRA DEL FOOTER */
+@media (max-width: 1200px) {
+    footer {
+        font-size: 18px; /* Tamaño de fuente máximo para pantallas de hasta 1200px */
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 16px; /* Tamaño de fuente máximo para pantallas de hasta 768px */
+    }
+}
+
+@media (max-width: 576px) {
+    footer {
+        font-size: 10px; /* Tamaño de fuente máximo para pantallas de hasta 576px */
+    }
+}
+
+/* Estilo cabezera de página */
+header a{
+    height: 20%;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-left: 42%;
+    margin-right: 620px;
+}
+
+/* Estilo del pie de página */
+footer {
+    position: fixed;
+    bottom: 10px;
+    left: 4%;
+    background: white; 
+    color: black; 
+    width: 92%;
+    height: 40px;
+    line-height: 40px;
+    border-top: 0.5px solid #E5E5E5;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.footer-links {
+    font-size: .80rem;
+    font-style: inherit;
+    font-weight: bold;
+    color: #8c8c8c;
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.derechos{
+    font-size: .80rem;
+    font-style: inherit;
+    font-weight: bold;
+    color: #8c8c8c;
+    margin-left: 1300px;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    padding-top: 2%;
+}
+
+body {
+    background-color: white;
+    /* Color de fondo */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    all: unset;
+}
+
+.colum-img {
+    margin-left: 15%;
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.col-description {
+    color:#666;
+    margin-bottom: 8%;
+}
+
+.col-description > h2 {
+    text-shadow: 3px 0px 8px #000000;
+}
+
+/* SLIDER */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper .swiper-pagination {
+    --swiper-pagination-color: black;
+}
+
+/* TABLAS */
+legend {
+    background-color: grey;
+    color: white;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+.botones {
+    background-color: black;
+    color: white;
+    width: 260px;
+    height: 35px;
+    font-family: century-gothic,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.table-borderless td {
+    width:80px;
+}
+
+/* FORMULARIOS */
+.obligatorio {
+    background-color: #ffff7a;
+}
+.bloqueado:disabled {
+    background-color: #665 ;
+    color: white;
+}
+
+.error {
+    color: red;
+    width: 450px;
+}
+
+.errorException {
+    color:#FF0000;
+    font-weight:bold;
+}
+
+.respuestaCorrecta {
+    color:#4CAF50;
+    font-weight:bold;
+}
+
+.error {
+    color: red;
+    width: 450px;
+}
+
+input[name="DescDepartamento"] {
+    width: 110%;
+    margin-right: 50%;
+}
+
+/* DEPARTAMENTOS */
+.tablaMuestra {
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    width: 70%;
+    /*SOLUCIÓN HASTA IMPLANTAR SISTEMA DE PAGINACIÓN*/
+    max-height: 60vh; /* Establece una altura máxima del 50% de la altura visible del navegador */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+}
+
+#buscarDepartamentos {
+    height: 15%;
+}
+
+.btn-container {
+    position: relative;
+    display: inline-block;
+}
+
+.descripcionExportar {
+    display: none;
+    position: absolute;
+    width: 500px;
+    top: -200%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #555;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-container:hover .descripcionExportar {
+    display: block;
+}
+
+.modDep {
+    width: 90%;
+}
+
+/* IMPORTAR DEPARTAMENTOS */
+.form-control {
+    background-color: black;
+    color: white;
+}
+
+.fileControl {
+    height: 20%;
+}

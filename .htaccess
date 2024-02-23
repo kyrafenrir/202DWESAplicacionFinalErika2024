@@ -1,0 +1,3 @@
+Options -Indexes
+DirectoryIndex index.php index.html
+ErrorDocument 404 /202DWESAplicacionFinalErika2024/errors/404.html

@@ -11,6 +11,7 @@
             <form name="Programa" action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
                 <button class="botones" aria-disabled="true" type="submit" name="cerrarSesion">Cerrar Sesion</button><br><br>
                 <button class="botones" aria-disabled="true" type="submit" name="detalle">Detalle</button><br><br>
+                <button class="botones" aria-disabled="true" type="submit" name="editarPerfil">Editar Perfil</button><br><br>
                 <button class="botones" aria-disabled="true" type="submit" name="mtoAlumnos">Mto. Alumnos</button><br><br>
                 <button class="botones" aria-disabled="true" type="submit" name="apiREST">REST</button>
             </form>        

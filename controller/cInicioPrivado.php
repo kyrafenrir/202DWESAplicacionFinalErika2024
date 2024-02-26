@@ -23,6 +23,14 @@ if(isset($_REQUEST['detalle'])){
     exit;
 }
 
+//Si el usuario pulsa el botón 'Editar Perfil', mando al usuario al index de DWES
+if(isset($_REQUEST['editarPerfil'])){
+    $_SESSION['paginaAnterior'] = 'inicioPrivado'; // Almaceno la página anterior para poder volver
+    $_SESSION['paginaEnCurso'] = 'miCuenta'; // Asigno a la página en curso la pagina de miCuenta
+    header('Location: index.php'); // Redirecciono al index de la APP
+    exit;
+}
+
 //Si el usuario pulsa el botón 'Mto.Alumnos', mando al usuario al index de DWES
 if(isset($_REQUEST['mtoAlumnos'])){
     $_SESSION['paginaEnCurso'] = 'consultarAlumno'; // Asigno a la página en curso la pagina de consultarAlumno

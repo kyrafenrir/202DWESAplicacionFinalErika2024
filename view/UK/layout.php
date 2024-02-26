@@ -31,10 +31,10 @@
                 <form class="opcionesDelIdioma">
                     <button type="submit" value="SP" name="botonIdioma"><a href="#"><img src="webroot/media/images/es.png" href="#" alt="alt"/></a></button>
                     <button type="submit" value="UK" name="botonIdioma"><a href="#"><img src="webroot/media/images/uk.png" href="#" alt="alt"/></a></button>
-                    <a href="doc/rss.xml"><img src="webroot/media/images/rss.png" href="#" alt="alt"/></a>
-                    <a href="doc/index.html"><img src="webroot/media/images/php.png" href="#" alt="alt"/></a>
-                    <a href="https://www.bershka.com/es/h-man.html"><img src="webroot/media/images/bershka.png" href="#" alt="alt"/></a>
-                    <a href="https://github.com/kyrafenrir/202DWESAplicacionFinalErika2024"><img src="webroot/media/images/github_1.png" href="#" alt="alt"/></a>
+                    <a href="doc/rss.xml" target="_blank"><img src="webroot/media/images/rss.png" href="#" alt="alt"/></a>
+                    <a href="doc/index.html" target="_blank"><img src="webroot/media/images/php.png" href="#" alt="alt"/></a>
+                    <a href="https://www.bershka.com/es/h-man.html" target="_blank"><img src="webroot/media/images/bershka.png" href="#" alt="alt"/></a>
+                    <a href="https://github.com/kyrafenrir/202DWESAplicacionFinalErika2024" target="_blank"><img src="webroot/media/images/github_1.png" href="#" alt="alt"/></a>
                     <a href=".."><img src="webroot/media/images/atras.png" href="#" alt="alt"/></a>
                     <a class="derechos">2023-2024 © Erika Martínez Pérez</a>
                 </form>

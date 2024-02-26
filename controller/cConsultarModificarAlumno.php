@@ -42,8 +42,8 @@ if ($oAlumnoAEditar) {
 }
 
 if (isset($_REQUEST['confirmarCambiosEditar'])) { // Comprobamos que el usuario haya enviado el formulario para 'confirmar los cambios'
-    $aErrores['T09_NombreAlumno'] = validacionFormularios::comprobarAlfaNumerico($_REQUEST['T09_NombreAlumno'], 255, 3, 1);
-    $aErrores['T09_ApellidosAlumno'] = validacionFormularios::comprobarAlfaNumerico($_REQUEST['T09_ApellidosAlumno'], 255, 3, 1);
+    $aErrores['T09_NombreAlumno'] = validacionFormularios::comprobarAlfabetico($_REQUEST['T09_NombreAlumno'], 255, 3, 1);
+    $aErrores['T09_ApellidosAlumno'] = validacionFormularios::comprobarAlfabetico($_REQUEST['T09_ApellidosAlumno'], 255, 3, 1);
     $aErrores['T09_FechaNacimiento'] = validacionFormularios::validarFechaHora($_REQUEST['T09_FechaNacimiento'], '2010-01-01 00:00:00', '1980-01-01 00:00:00', 1);
     $aErrores['T09_ImporteMatricula'] = validacionFormularios::comprobarFloat($_REQUEST['T09_ImporteMatricula'], PHP_FLOAT_MAX, -PHP_FLOAT_MAX, 0);
 
